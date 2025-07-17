@@ -2,7 +2,6 @@
  *
  * -----------------------------------------------------------------------------
  *
- * Template : Reeni Personal Portfolio HTML Template
  * Author : themes-park
  * Author URI : https://themes-park.com/ 
  *
@@ -19,7 +18,7 @@
     $(form).submit(function (e) {
         e.preventDefault();
 
-        // Form data serialize + phone field যুক্ত করা
+        // Form data serialize + phone field
         var formData = $(form).serialize() + "&phone=" + $('#contact-phone').val();
 
         $.ajax({
@@ -30,7 +29,6 @@
         .done(function (response) {
             $(formMessages).removeClass('error').addClass('success').text(response);
 
-            // ইনপুট ফিল্ড ক্লিয়ার করা
             $('#contact-name, #contact-email, #subject, #contact-message, #contact-phone').val('');
         })
         .fail(function (data) {
