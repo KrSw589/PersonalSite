@@ -59,7 +59,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
-  --color-primary: #FF014F;
+  /* --color-primary: #8A2BE2; */
+  /* --color-primary: #FFA500; */
+  /* --color-primary: #D8CAB8; */
+  --color-primary: #982575;
   --color-primary-alt: #ff014dd9;
   --color-primary-2nd: #FF494A;
   --color-primary-3rd: #FDC448;
@@ -969,7 +972,7 @@ blockquote b {
 }
 
 .tmp-section-gapTop {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tmp-section-gapTop {
@@ -26725,10 +26728,10 @@ body.tmp-white-version.box-body .main-wrapper-inner {
 body.tmp-white-version .newsletter-form-1 input {
   color: #141414;
 }
-body.tmp-white-version .tmp-banner-one-area {
+/* body.tmp-white-version .tmp-banner-one-area {
   background-image: url(../images/bg/bg-image-12.jpg);
   background-color: #EDEDED;
-}
+} */
 body.tmp-white-version.demo-model .tmp-banner-one-area.style-2 {
   background-image: url(../images/bg/03.webp);
 }
@@ -26840,7 +26843,7 @@ body.tmp-white-version .tmp-all-tab-content {
 body.tmp-white-version .tmp-contact-about-inner .info-box {
   background: var(--color-white);
 }
-body.tmp-white-version .tmp-banner-one-area.style-2 {
+/* body.tmp-white-version .tmp-banner-one-area.style-2 {
   background-image: url(../images/bg/bg-image-9.jpg);
 }
 body.tmp-white-version .bg_image--8 {
@@ -26850,8 +26853,8 @@ body.tmp-white-version.primary-yellow .bg_image--8 {
   background-image: url(../images/bg/04.webp);
 }
 body.tmp-white-version .tmp-banner-one-area.style-4 {
-  background-image: url(../images/bg/bg-image-11.jpg);
-}
+  background-image: url(../images/bg/bg-image-11.jpg); 
+}*/
 body.tmp-white-version .tmp-popup-mobile-menu .header-top .close-menu .close-button {
   background: rgba(10, 10, 10, 0.06);
   color: var(--color-heading);
