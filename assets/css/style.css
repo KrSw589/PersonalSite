@@ -147,8 +147,15 @@
 * {
   box-sizing: border-box;
 }
+
 .my-text{
-color:var(--color-primary);
+ color:var(--color-primary);
+}
+
+@media only screen and (max-width: 470px) { 
+    .title-wrapper{
+    min-height: 200px;
+  }
 }
 
 .avatar{
