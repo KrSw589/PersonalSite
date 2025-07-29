@@ -156,14 +156,28 @@
     .title-wrapper{
     min-height: 200px;
   }
+  .avatar{
+    margin: 50px;
+  }
+}
+@media only screen and (max-width: 470px) { 
+  .avatar{
+    margin: 50px 0px;
+  }
 }
 
+  @media only screen and (min-width: 470px) { 
+  .avatar{
+    margin: 100px 0px;
+  }
+}
 .avatar{
       /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
     background-image: url(../images/krsw/krsw_dark_lrg.jpg);
     
     /* make a square container */
-    margin: 100px 0px;
+
+    /* margin: 100px 0px; */
     width: 350px;
     height: 350px;
 
