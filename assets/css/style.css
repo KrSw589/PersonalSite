@@ -173,7 +173,7 @@
 }
 .avatar{
       /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
-    background-image: url(../images/krsw/krsw_dark_lrg.jpg);
+    background-image: url(../images/krsw/krsw_dark_lrg.webp);
     
     /* make a square container */
 
