@@ -834,5 +834,23 @@ document.addEventListener('DOMContentLoaded', function() {
     removePreloader();
   });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    const wordWrapper = document.querySelector('.cd-words-wrapper');
+    const articleN = document.getElementById('article-n');
 
+    if (!wordWrapper || !articleN) return;
 
+    let lastWord = "";
+
+    setInterval(() => {
+        const visible = wordWrapper.querySelector('.is-visible');
+        if (!visible) return;
+
+        const word = visible.textContent.trim();
+        if (word !== lastWord) {
+            const shouldUseAn = /^[aeiouAEIOU]/.test(word);
+            articleN.classList.toggle('visible', shouldUseAn);
+            lastWord = word;
+        }
+    }, 200);
+});

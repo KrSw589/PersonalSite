@@ -147,6 +147,24 @@
 * {
   box-sizing: border-box;
 }
+#article-word{
+  display: inline-flex;
+}
+#article-n {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  visibility: hidden;
+  white-space: nowrap;
+  transition: max-width 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#article-n.visible {
+  max-width: 1em;
+  opacity: 1;
+  visibility: visible;
+}
 
 .my-text{
  color:var(--color-primary);
