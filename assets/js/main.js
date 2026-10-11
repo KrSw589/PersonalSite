@@ -41,15 +41,12 @@
 
     methods: function (e) {
       tmPk.serviceWidget();
-      tmPk.swiperJs();
-      tmPk.wowActive();
       tmPk.tmpVedioActivation();
       tmPk.stickyHeader();
       tmPk.smoothScroll();
       tmPk.menuCurrentLink();
       tmPk.rollingText();
       tmPk.radialProgress();
-      tmPk.fonklsAnimation();
       tmPk.rightDemo();
       tmPk.onePageNav();
       tmPk.tpm_mobileMenuActive();
@@ -853,4 +850,10 @@ document.addEventListener('DOMContentLoaded', function () {
             lastWord = word;
         }
     }, 200);
+});
+
+// Footer year
+document.addEventListener("DOMContentLoaded", function () {
+  var year = document.getElementById("current-year");
+  if (year) year.textContent = new Date().getFullYear();
 });

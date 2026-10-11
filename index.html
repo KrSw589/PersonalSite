@@ -3,22 +3,119 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Krzysztof Świątek Portfolio website.">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg">
-    <title>Krzysztof Świątek - Hello!</title>
-    <!-- Bootstrap min css -->
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
+    <title>Krzysztof Świątek – Full-Stack .NET &amp; Angular Developer</title>
+    <meta name="description" content="Krzysztof Świątek – senior Full-Stack .NET &amp; Angular developer from Katowice, Poland. Dedicated business software, process automation (RPA, n8n), AI agents, Azure and DevOps.">
+    <meta name="author" content="Krzysztof Świątek">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://krzysztofswiatek.com/">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Krzysztof Świątek">
+    <meta property="og:url" content="https://krzysztofswiatek.com/">
+    <meta property="og:title" content="Krzysztof Świątek – Full-Stack .NET &amp; Angular Developer">
+    <meta property="og:description" content="Dedicated business software, process automation, AI agents, Azure and DevOps. Based in Katowice, Poland.">
+    <meta property="og:image" content="https://krzysztofswiatek.com/assets/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Krzysztof Świątek – Full-Stack .NET &amp; Angular Developer">
+    <meta property="og:locale" content="en_US">
+    <meta property="profile:first_name" content="Krzysztof">
+    <meta property="profile:last_name" content="Świątek">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Krzysztof Świątek – Full-Stack .NET &amp; Angular Developer">
+    <meta name="twitter:description" content="Dedicated business software, process automation, AI agents, Azure and DevOps.">
+    <meta name="twitter:image" content="https://krzysztofswiatek.com/assets/images/og-image.jpg">
+
+    <!-- Icons -->
+    <link rel="icon" href="assets/images/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://krzysztofswiatek.com/#website",
+                "url": "https://krzysztofswiatek.com/",
+                "name": "Krzysztof Świątek",
+                "inLanguage": "en",
+                "publisher": { "@id": "https://krzysztofswiatek.com/#person" }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://krzysztofswiatek.com/#person",
+                "name": "Krzysztof Świątek",
+                "url": "https://krzysztofswiatek.com/",
+                "image": "https://krzysztofswiatek.com/assets/images/krsw/avatar-700.webp",
+                "jobTitle": "Full-Stack .NET & Angular Developer",
+                "description": "Senior full-stack developer (.NET, Angular) with DevOps, cloud (Azure), business process automation and AI agent experience.",
+                "email": "mailto:krzysztof.swiatek589@gmail.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Katowice",
+                    "addressCountry": "PL"
+                },
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Wyższa Szkoła Technologii Informatycznych w Katowicach"
+                },
+                "knowsAbout": [".NET", "C#", "Angular", "Vue.js", "Python", "DevOps", "Azure", "AWS", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "Azure Pipelines", "RPA", "n8n", "AI agents", "RAG", "Business process automation"],
+                "hasCredential": [
+                    { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Azure Fundamentals (AZ-900)" },
+                    { "@type": "EducationalOccupationalCredential", "name": "PCAP – Certified Associate in Python Programming" }
+                ],
+                "sameAs": ["https://www.linkedin.com/in/krsw/"]
+            },
+            {
+                "@type": "ProfessionalService",
+                "@id": "https://krzysztofswiatek.com/#service",
+                "name": "Krzysztof Świątek – Software Development & Automation",
+                "url": "https://krzysztofswiatek.com/",
+                "image": "https://krzysztofswiatek.com/assets/images/og-image.jpg",
+                "founder": { "@id": "https://krzysztofswiatek.com/#person" },
+                "areaServed": ["PL", "EU"],
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Katowice",
+                    "addressCountry": "PL"
+                },
+                "email": "krzysztof.swiatek589@gmail.com",
+                "knowsLanguage": ["pl", "en"],
+                "serviceType": ["Custom business software", "Business process automation", "AI agents", "Digital transformation", "System integration", "Legacy application migration", "DevOps & cloud"]
+            }
+        ]
+    }
+    </script>
+
+    <!-- Performance: fonts + LCP image -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;family=Rubik:wght@300..900&amp;display=swap">
+    <link rel="preload" as="image" href="assets/images/krsw/avatar-700.webp" type="image/webp" fetchpriority="high">
+
     <link rel="stylesheet" href="assets/css/plugins/odometer.css">
-    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body class="tmp-white-version spybody index-ten" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
+    <!-- Icons: Font Awesome Free 6.7.2 (CC BY 4.0) https://fontawesome.com/license/free -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <symbol id="i-envelope" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></symbol>
+        <symbol id="i-xmark" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></symbol>
+        <symbol id="i-arrow-right" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+        <symbol id="i-location" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></symbol>
+        <symbol id="i-code" viewBox="0 0 640 512"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></symbol>
+        <symbol id="i-bars" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></symbol>
+    </svg>
 
     <!-- tpm-header-area start -->
     <header class="tmp-header-area-start header-one header--sticky header--transparent" role="banner">
@@ -29,7 +126,7 @@
                     <div class="header-content">
                         <div class="logo">
                             <a href="/" aria-label="Homepage">
-                                <img class="logo-white" width="160px" src="assets/images/krsw/logo_name.png" alt="Krzysztof Świątek logo">
+                                <img class="logo-white" width="160" height="52" src="assets/images/krsw/logo-name-320.webp" alt="Krzysztof Świątek logo">
                             </a>
                         </div>
                         <div class="tmp-mainmenu-nav d-none d-xl-block">
@@ -48,13 +145,13 @@
                         <div class="tmp-header-right">
                             <div class="social-share-wrapper d-none d-md-block">
                                 <div class="social-link">
-                                    <a href="https://www.linkedin.com/in/krsw/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="mailto:krzysztof.swiatek589@gmaill.com"><i class="fa fa-envelope"></i></a>
+                                    <a href="https://www.linkedin.com/in/krsw/" target="_blank" rel="noopener me" aria-label="LinkedIn profile"><i class="ki" aria-hidden="true"><svg><use href="#i-linkedin"/></svg></i></a>
+                                    <a href="mailto:krzysztof.swiatek589@gmail.com" aria-label="Send me an e-mail"><i class="ki" aria-hidden="true"><svg><use href="#i-envelope"/></svg></i></a>
                                 </div>
                             </div>
 
                             <div class="tmp-side-collups-area d-block d-xl-none">
-                                <button class="hamberger-menu humberger_menu_active"><i id="menuBtn" class="fa-light fa-bars humberger-menu"></i></button>
+                                <button class="hamberger-menu humberger_menu_active" aria-label="Open menu"><i class="ki humberger-menu" id="menuBtn" aria-hidden="true"><svg><use href="#i-bars"/></svg></i></button>
                             </div>
                         </div>
 
@@ -72,20 +169,20 @@
             <div class="inner">
                 <div class="header-top">
                     <div class="logo">
-                        <a href="index.html" class="logo-area">
-
-                            <img class="logo-white" src="assets/images/krsw/logo_name.png" alt="logo">
+                        <a href="/" class="logo-area">
+                            <img class="logo-white" width="160" height="52" src="assets/images/krsw/logo-name-320.webp" alt="Krzysztof Świątek logo" loading="lazy">
                         </a>
                     </div>
                     <div class="close-menu">
-                        <button class="close-button tmp-round-action-btn">
-                            <i class="fa-sharp fa-light fa-xmark"></i>
+                        <button class="close-button tmp-round-action-btn" aria-label="Close menu">
+                            <i class="ki" aria-hidden="true"><svg><use href="#i-xmark"/></svg></i>
                         </button>
                     </div>
                 </div>
 
                 <ul class="tmp-mainmenu onepagenav-click">
                     <li><a class="smoth-animation" href="#home">Home</a></li>
+                    <li><a class="smoth-animation" href="#about">About</a></li>
                     <li><a class="smoth-animation" href="#service">Services</a></li>
                     <li><a class="smoth-animation" href="#resume">Resume</a></li>
                     <!-- <li><a class="smoth-animation" href="#blog">Blog</a></li> -->
@@ -96,8 +193,8 @@
                 <div class="social-wrapper mt--40">
                     <span class="subtitle">Find me with</span>
                     <div class="social-link">
-                        <a href="https://www.linkedin.com/in/krsw/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="mailto:krzysztof.swiatek589@gmaill.com"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/krsw/" target="_blank" rel="noopener me" aria-label="LinkedIn profile"><i class="ki" aria-hidden="true"><svg><use href="#i-linkedin"/></svg></i></a>
+                        <a href="mailto:krzysztof.swiatek589@gmail.com" aria-label="Send me an e-mail"><i class="ki" aria-hidden="true"><svg><use href="#i-envelope"/></svg></i></a>
                     </div>
                 </div>
                 <!-- end -->
@@ -108,6 +205,7 @@
     <!-- End Popup Mobile Menu  -->
 
     <!-- tmp banner area start -->
+    <main id="main">
     <div class="tmp-banner-one-area style-4" id="home">
         
         <div class="container">
@@ -115,7 +213,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="text-center d-flex flex-column align-items-center">
-                            <div class="avatar">
+                            <div class="avatar" role="img" aria-label="Krzysztof Świątek – portrait">
                             </div>
                             <h1 class="title-wrapper title tmp-scroll-trigger tmp-fade-in animation-order-2">I’m
                                 Krzysztof Świątek <br> 
@@ -156,7 +254,7 @@
                         </div>
                         <div class="design-card tmp-scroll-trigger tmp-fade-in animation-order-2">
                             <div class="design-card-img">
-                                <div class="icon"><i class="fas fa-code"></i></div>
+                                <div class="icon"><i class="ki" aria-hidden="true"><svg><use href="#i-code"/></svg></i></div>
                             </div>
                             <div class="card-info">
                                 <h3 class="card-title">Full-Stack Dev</h3>
@@ -185,11 +283,11 @@ technology-driven innovation and efficient software solutions.</p>
                                 <div class="about-us-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
                                     <div class="card-head">
                                         <div class="logo-img">
-                                            <img src="assets/images/about/logo-1.svg" alt="logo">
+                                            <img src="assets/images/about/logo-1.svg" alt="" width="40" height="40" loading="lazy">
                                         </div>
                                         <h3 class="card-title">Business Applications</h3>
                                     </div>
-                                    <p class="card-para">I expertise in creating dedicated business applications.
+                                    <p class="card-para">I specialize in building dedicated business applications tailored to how your company works.
                                     </p>
                                 </div>
                             </div>
@@ -198,11 +296,11 @@ technology-driven innovation and efficient software solutions.</p>
                                 <div class="about-us-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-5">
                                     <div class="card-head">
                                         <div class="logo-img">
-                                            <img src="assets/images/about/logo-2.svg" alt="logo">
+                                            <img src="assets/images/about/logo-2.svg" alt="" width="40" height="40" loading="lazy">
                                         </div>
                                         <h3 class="card-title">Automation partner</h3>
                                     </div>
-                                    <p class="card-para">Business process automation partner. I love to help others get their business to next next level
+                                    <p class="card-para">Business process automation partner. I love helping businesses get to the next level.
                                     </p>
                                 </div>
                             </div>
@@ -212,8 +310,8 @@ technology-driven innovation and efficient software solutions.</p>
                             <a class="tmp-btn hover-icon-reverse radius-round" href="#contacts">
                                 <span class="icon-reverse-wrapper">
                         <span class="btn-text">Contact Me</span>
-                                <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
-                                <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                <span class="btn-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-arrow-right"/></svg></i></span>
+                                <span class="btn-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-arrow-right"/></svg></i></span>
                                 </span>
                             </a>
                         </div>
@@ -231,7 +329,7 @@ technology-driven innovation and efficient software solutions.</p>
                 <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
                     <span class="subtitle">Business Support Service</span>
                 </div>
-                <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">What I can assist you/your Business with
+                <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">How I can help your business
                     <br>
                 </h2>
                 <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3"> Find something that fits your needs in the list of the services I provide.
@@ -239,32 +337,32 @@ technology-driven innovation and efficient software solutions.</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-sm-6">
-                    <a href="service-details.html" class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
-                        <h2 class="service-card-num"><span>01.</span>Digitalizing company</h2>
-                        <p class="service-para">I'm helping companies to move from paper and manual work and onboard them to IT systems can simplify getting the job done.</p>
-                    </a>
-                    <a href="service-details.html" class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
-                        <h2 class="service-card-num"><span>02.</span>Automation</h2>
-                        <p class="service-para">Imagine having to do the work every month manually -what if it could be done in the background automatically.
-                            With only you having to review if everything is correcty.</p>
-                    </a>
-                    <a href="service-details.html" class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
-                        <h2 class="service-card-num"><span>03.</span>AI Agents</h2>
-                        <p class="service-para">How amazing would it be to have an virtual assistant that can help you run your company or being able to reduce the workload for customer assist auttomatically. With Ai it's simple.</p>
-                    </a>
+                    <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h3 class="service-card-num"><span>01.</span>Digitalizing company</h3>
+                        <p class="service-para">I help companies move from paper and manual work to IT systems that make getting the job done simpler.</p>
+                    </div>
+                    <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                        <h3 class="service-card-num"><span>02.</span>Automation</h3>
+                        <p class="service-para">Imagine repetitive monthly work being done automatically in the background,
+                            with you only reviewing that everything is correct.</p>
+                    </div>
+                    <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                        <h3 class="service-card-num"><span>03.</span>AI Agents</h3>
+                        <p class="service-para">How about a virtual assistant that helps you run your company or automatically reduces the customer support workload? With AI it's simple.</p>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
-                        <h2 class="service-card-num"><span>04.</span>Dedicated Software</h2>
-                        <p class="service-para">Are you tired of applications that don't match your requirements? Let's build an App for your buisness, doing everything that you want!</p>
+                        <h3 class="service-card-num"><span>04.</span>Dedicated Software</h3>
+                        <p class="service-para">Are you tired of applications that don't match your requirements? Let's build an app for your business, doing everything that you want!</p>
                     </div>
                     <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-5">
-                        <h2 class="service-card-num"><span>05.</span>Simplifying your application flows</h2>
+                        <h3 class="service-card-num"><span>05.</span>Simplifying your application flows</h3>
                         <p class="service-para">Having too many applications to interact with? Or maybe you want to connect them together? I'm sure I can find best solutions that will fit your need!</p>
                     </div>
                     <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-6">
-                        <h2 class="service-card-num"><span>06.</span>Migrate to new solutions</h2>
-                        <p class="service-para">Sticking to old solutions? There's gonna be the break line when it will start slowing you down or maybe it already is slowing you down. Let's have a chat about how to get your business to use newest solutions!</p>
+                        <h3 class="service-card-num"><span>06.</span>Migrate to new solutions</h3>
+                        <p class="service-para">Sticking to old solutions? At some point they start slowing you down – or maybe they already do. Let's have a chat about how to get your business to use newest solutions!</p>
                     </div>
                 </div>
             </div>
@@ -279,51 +377,51 @@ technology-driven innovation and efficient software solutions.</p>
                     <br>
                 </h2>
                 <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3"> 
-                 You're in right place! Take a look at some of the major skills that your can benefit from when cooperating with me.</p>
+                 You're in the right place! Take a look at the key skills you can benefit from when working with me.</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-sm-6">
-                    <a href="service-details.html" class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
-                        <h2 class="service-card-num"><span>01.</span>Coding</h2>
-                        <p class="service-para">I'm a senior .NET | Angular developer with +4 years of experience. CQRS, DDD, CleanArchitecture, lot's of tests - that's what I lvoe to work with. <br>
+                    <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h3 class="service-card-num"><span>01.</span>Coding</h3>
+                        <p class="service-para">I'm a senior .NET | Angular developer with +4 years of experience. CQRS, DDD, CleanArchitecture, lots of tests – that's what I love to work with. <br>
                         #DOTNET #ANGULAR #PYTHON #VUE</p>
                        
-                    </a>
-                    <a href="service-details.html" class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
-                        <h2 class="service-card-num"><span>02.</span>DevOps</h2>
-                        <p class="service-para">Before i started my journey as Developer i was highly interested in a System Admin career. I highly enjoy working with Infrastructure, Pipelines and simplifying the routine tasks/setup with Bash/Python scripts.
+                    </div>
+                    <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                        <h3 class="service-card-num"><span>02.</span>DevOps</h3>
+                        <p class="service-para">Before I started my journey as a developer I was highly interested in a System Admin career. I highly enjoy working with Infrastructure, Pipelines and simplifying the routine tasks/setup with Bash/Python scripts.
                             Managing my production infrastructure with Terraform and learning Ansible at the moment.
                             <br>
-                            #GITHUBACTIONS #AZUREPIPELINES #TERRAFORM #BASH #PYTHON #CICD #SONARCUBE #LINUX #DOCKER #KUBERNETES
+                            #GITHUBACTIONS #AZUREPIPELINES #TERRAFORM #BASH #PYTHON #CICD #SONARQUBE #LINUX #DOCKER #KUBERNETES
                         </p>
-                    </a>
-                    <a href="service-details.html" class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
-                        <h2 class="service-card-num"><span>03.</span>Cloud</h2>
-                        <p class="service-para">I setup own infrastructure in Azure. I have +3 years work experience with Azure Cloud and Azure DevOps. I have my own VPS infrastructure on Hetzner and
+                    </div>
+                    <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                        <h3 class="service-card-num"><span>03.</span>Cloud</h3>
+                        <p class="service-para">I set up my own infrastructure in Azure. I have +3 years work experience with Azure Cloud and Azure DevOps. I have my own VPS infrastructure on Hetzner and
                             Hands-on experience with AWS.
                         <br>
                             #AZURE #AWS #HETZNER
                     </p>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
-                        <h2 class="service-card-num"><span>04.</span>AI</h2>
-                        <p class="service-para">I have Experience writing AI Agents for business. Right now deep-diving in the topic and doing Microsoft AI certification.
+                        <h3 class="service-card-num"><span>04.</span>AI</h3>
+                        <p class="service-para">I have experience building AI agents for business. Right now deep-diving in the topic and doing Microsoft AI certification.
                             <br>
                             #AIAGENT #RAG #MICROSOFTAI
                         </p>
                     </div>
                     <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-6">
-                        <h2 class="service-card-num"><span>06.</span>Automation</h2>
+                        <h3 class="service-card-num"><span>06.</span>Automation</h3>
                         <p class="service-para">I have a lot of experience in Automating business flows with RPA solutions and automating business workflows with N8N.<br>
                             #N8N #RPA #SELENIUM
                     </p>
                     </div>
                                         <div class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-5">
-                        <h2 class="service-card-num"><span>05.</span>Team Player</h2>
+                        <h3 class="service-card-num"><span>05.</span>Team Player</h3>
                         <p class="service-para">Team work makes a dream work! I love to cooperate with others. 
-                            I Believe that having a good team with amazing atmosphere makes work easy and exciting.<br>
+                            I believe that having a good team with amazing atmosphere makes work easy and exciting.<br>
                             #SCRUM #INTERNATIONALEXPERIENCE #TEAMWORK
                     </p>
                     </div>
@@ -344,62 +442,55 @@ technology-driven innovation and efficient software solutions.</p>
                 <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">A journey shaped by continuous learning and real-world impact. From academic foundations to hands-on roles, each step has sharpened my skills and deepened my knowledge.</p>
             </div>
             <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Education <span><img
-                        src="assets/images/custom-line/custom-line.png" alt="custom-line"></span>
+                        src="assets/images/custom-line/custom-line.png" alt="" width="81" height="6"></span>
             </h2>
             <div class="row g-5">
                 <div class="col-lg-6 col-sm-6">
                     <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
-                        <h4 class="edu-sub-title">AZ-900 certification</h4>
-                        <h2 class="edu-title">2023</h2>
+                        <h3 class="edu-sub-title">AZ-900 certification</h3>
+                        <p class="edu-title">2023</p>
                         <p class="edu-para">Microsoft Azure Fundamentals certification.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
-                        <h4 class="edu-sub-title">Angular master course</h4>
-                        <h2 class="edu-title">2023</h2>
+                        <h3 class="edu-sub-title">Angular master course</h3>
+                        <p class="edu-title">2023</p>
                         <p class="edu-para">Angular in Space - Angular master course.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
-                        <h4 class="edu-sub-title">Microservices architecture course</h4>
-                        <h2 class="edu-title">2023</h2>
+                        <h3 class="edu-sub-title">Microservices architecture course</h3>
+                        <p class="edu-title">2023</p>
                         <p class="edu-para">Microservices architecture course from Bottega.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
-                        <h4 class="edu-sub-title">Angular full course</h4>
-                        <h2 class="edu-title">2021</h2>
+                        <h3 class="edu-sub-title">Angular full course</h3>
+                        <p class="edu-title">2021</p>
                         <p class="edu-para">Angular in Space - Angular full course.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
-                    <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-5">
-                        <h4 class="edu-sub-title">Microservices architecture course</h4>
-                        <h2 class="edu-title">2023</h2>
-                        <p class="edu-para">Microservices architecture course from Bottega.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6">
                     <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-6">
-                        <h4 class="edu-sub-title">AZ-400 course</h4>
-                        <h2 class="edu-title">2020</h2>
+                        <h3 class="edu-sub-title">AZ-400 course</h3>
+                        <p class="edu-title">2020</p>
                         <p class="edu-para">AZ-400 Designing and Implementing Microsoft DevOps solutions course.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-6">
-                        <h4 class="edu-sub-title">PCAP Python Certification</h4>
-                        <h2 class="edu-title">2019</h2>
+                        <h3 class="edu-sub-title">PCAP Python Certification</h3>
+                        <p class="edu-title">2019</p>
                         <p class="edu-para">Pearson VUE - Certified Associate in Python Programming certification.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-7">
-                        <h4 class="edu-sub-title">WSTI in Katowice</h4>
-                        <h2 class="edu-title">2017-2021</h2>
+                        <h3 class="edu-sub-title">WSTI in Katowice</h3>
+                        <p class="edu-title">2017-2021</p>
                         <p class="edu-para">IT Bachelor’s degree.</p>
                     </div>
                 </div>
@@ -409,28 +500,28 @@ technology-driven innovation and efficient software solutions.</p>
                     <div class="col-lg-6">
                         <div class="experiences-wrap-left-content">
                             <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Experiences <span><img
-                            src="assets/images/custom-line/custom-line.png" alt="custom-line"></span></h2>
+                            src="assets/images/custom-line/custom-line.png" alt="" width="81" height="6"></span></h2>
 
                             <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
                                 <p class="ex-subtitle">experience</p>
-                                <h2 class="ex-name">Fullstack .NET + Angular (4 Years)</h2>
-                                <p class="ex-para">Working as a fullstack developer with newest and legacy technologies. Working with .NET Framework, .NET 5-9, Angular 14-18</p>
+                                <h3 class="ex-name">Fullstack .NET + Angular (4 Years)</h3>
+                                <p class="ex-para">Working as a full-stack developer with both the newest and legacy technologies. Working with .NET Framework, .NET 5-9, Angular 14-18</p>
                             </div>
                             <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
                                 <p class="ex-subtitle">experience</p>
-                                <h2 class="ex-name">DevOps engineer(2 Years)</h2>
-                                <p class="ex-para">Working on own Hetzner infrastructure,Github Actions, Azure pipelines, Terraform etc.</p>
+                                <h3 class="ex-name">DevOps Engineer (2 Years)</h3>
+                                <p class="ex-para">Working on own Hetzner infrastructure, GitHub Actions, Azure pipelines, Terraform etc.</p>
                             </div>
                             <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-3">
                                 <p class="ex-subtitle">experience</p>
-                                <h2 class="ex-name">Fullstack .NET + VUE (2 Years)</h2>
-                                <p class="ex-para">Working as a fullstack developer with newest tehnologies. Working with VUE2 and VUE3</p>
+                                <h3 class="ex-name">Fullstack .NET + VUE (2 Years)</h3>
+                                <p class="ex-para">Working as a full-stack developer with the newest technologies. Working with VUE2 and VUE3</p>
                             </div>
                             <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-4">
                                 <p class="ex-subtitle">experience</p>
-                                <h2 class="ex-name">AppTech</h2>
-                                <h3 class="ex-title">RPA Developer(3 Years)</h3>
-                                <p class="ex-para">Working as a RPA developer with `Automation Anywhere` tool and Python scripts.</p>
+                                <h3 class="ex-name">AppTech</h3>
+                                <h4 class="ex-title">RPA Developer (3 Years)</h4>
+                                <p class="ex-para">Working as an RPA developer with the Automation Anywhere platform and Python scripts.</p>
                             </div>
                         </div>
                     </div>
@@ -438,7 +529,7 @@ technology-driven innovation and efficient software solutions.</p>
                     <div class="col-lg-6">
                         <br>
                                                 <div class="experiences-wrap-right-content">
-                            <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1" src="assets/images/krsw/fullstack.jpg" alt="expert-img">
+                            <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1" src="assets/images/krsw/fullstack-800.webp" width="800" height="1200" loading="lazy" decoding="async" alt="Developer workstation with code on two monitors">
                         </div>
                     </div>
                 </div>
@@ -458,14 +549,14 @@ technology-driven innovation and efficient software solutions.</p>
                             </div>
                             <ul class="ft-link v2">
                                 <li class="tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation">
-                                    <span class="ft-icon"><i class="fa-solid fa-envelope"></i></span>
+                                    <span class="ft-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-envelope"/></svg></i></span>
                                     <div class="ft-link-wrap">
                                         <h4 class="link-title">E-mail:</h4>
                                         <a href="mailto:krzysztof.swiatek589@gmail.com">krzysztof.swiatek589@gmail.com</a>
                                     </div>
                                 </li>
                                 <li class="tmp-scroll-trigger tmp-fade-in animation-order-2">
-                                    <span class="ft-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                    <span class="ft-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-location"/></svg></i></span>
                                     <div class="ft-link-wrap">
                                         <h4 class="link-title">Location:</h4>
                                         <div>Katowice, Poland</div>
@@ -481,7 +572,7 @@ technology-driven innovation and efficient software solutions.</p>
                             </div>
                             <div class="contact-form">
                                 <div id="form-messages" class="error"></div>
-                                <form class="tmp-dynamic-form" id="contact-form" action="https://formspree.io/f/mjkoygny" method="POST" role="form" aria-describedby="form-messages">
+                                <form class="tmp-dynamic-form" id="contact-form" action="https://formspree.io/f/mjkoygny" method="POST" aria-describedby="form-messages">
                                     <div class="contact-form-wrapper row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
@@ -504,7 +595,7 @@ technology-driven innovation and efficient software solutions.</p>
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <label for="subject">Subject</label>
-                                                <input class="input-field" type="text" id="subject" name="subject" placeholder="Subject" autocomplete="subject">
+                                                <input class="input-field" type="text" id="subject" name="subject" placeholder="Subject" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
@@ -515,22 +606,22 @@ technology-driven innovation and efficient software solutions.</p>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="tmp-button-here">
-                                                <button class="tmp-btn hover-icon-reverse radius-round w-100" name="submit" type="submit" id="submit" aria-label="Send mail" aria-pressed="false" tabindex="0">
+                                                <button class="tmp-btn hover-icon-reverse radius-round w-100" name="submit" type="submit" id="submit">
                                                     <span class="icon-reverse-wrapper">
                                                         <span class="btn-text">Send mail</span>
-                                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right" aria-hidden="true"></i></span>
-                                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right" aria-hidden="true"></i></span>
+                                                        <span class="btn-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-arrow-right"/></svg></i></span>
+                                                        <span class="btn-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-arrow-right"/></svg></i></span>
                                                     </span>
                                                 </button>
                                                 <div class="mt-5 section-head section-head-one-side text-align-middle tmp-scroll-trigger tmp-fade-in animation-order-1">
                                                     <span class="title">Or</span>
                                                 </div>
-                                                <div class="tmp-btn hover-icon-reverse radius-round w-100" role="button" tabindex="0" aria-label="Book Appointment Now">
-                                                    <a style="color: white;" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3QUJR8HN-11SXWID6uWmQ3wP5TDu5ZgBC7BzknfUeq7n3ZNZaqQUL2hSd8gIBCAGNAsLJrH44B" target="_blank">
+                                                <div class="tmp-btn hover-icon-reverse radius-round w-100">
+                                                    <a style="color: white;" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3QUJR8HN-11SXWID6uWmQ3wP5TDu5ZgBC7BzknfUeq7n3ZNZaqQUL2hSd8gIBCAGNAsLJrH44B" target="_blank" rel="noopener">
                                                         <span class="icon-reverse-wrapper">
                                                             <span class="btn-text">Book Appointment Now</span>
-                                                            <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right" aria-hidden="true"></i></span>
-                                                            <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right" aria-hidden="true"></i></span>
+                                                            <span class="btn-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-arrow-right"/></svg></i></span>
+                                                            <span class="btn-icon"><i class="ki" aria-hidden="true"><svg><use href="#i-arrow-right"/></svg></i></span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -548,6 +639,7 @@ technology-driven innovation and efficient software solutions.</p>
         </div>
     </section>
     <!-- Tpm Get In touch End -->
+    </main>
 
     <!-- Start Footer Area  -->
     <div class="tmp-footer-area footer-style-4 tmp-section-gap">
@@ -556,16 +648,11 @@ technology-driven innovation and efficient software solutions.</p>
                 <div class="col-lg-12">
                     <div class="footer-area text-center">
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="assets/images/krsw/logo_name.png" alt="Krzysztof Świątek">
+                            <a href="/">
+                                <img src="assets/images/krsw/logo-name-320.webp" width="160" height="52" alt="Krzysztof Świątek" loading="lazy">
                             </a>
                         </div>
-                        <p class="description mt--30">©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            . All rights reserved.</a>
-                        </p>
+                        <p class="description mt--30">© <span id="current-year">2026</span> Krzysztof Świątek. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -574,35 +661,18 @@ technology-driven innovation and efficient software solutions.</p>
     <!-- End Footer Area  -->
 
 
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/jquery-ui.min.js"></script>
-    <script src="assets/js/vendor/waypoints.min.js"></script>
-
-    <script src="assets/js/plugins/odometer.js"></script>
-    <script src="assets/js/vendor/appear.js"></script>
-
-
-    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
-    <script src="assets/js/plugins/swiper.js"></script>
-
-    <script src="assets/js/plugins/gsap.js"></script>
-    <script src="assets/js/plugins/splittext.js"></script>
-    <script src="assets/js/plugins/scrolltigger.js"></script>
-    <script src="assets/js/plugins/scrolltoplugins.js"></script>
-    <script src="assets/js/plugins/smoothscroll.js"></script>
-    <!-- bootstrap Js-->
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/waw.js"></script>
-    <script src="assets/js/plugins/isotop.js"></script>
-    <script src="assets/js/plugins/animation.js"></script>
-    <script src="assets/js/vendor/backtop.js"></script>
-    <script src="assets/js/vendor/particle.js"></script>
-    <script src="assets/js/plugins/text-type.js"></script>
+    <script src="assets/js/vendor/jquery.js" defer></script>
+    <script src="assets/js/plugins/odometer.js" defer></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js" defer></script>
+    <script src="assets/js/plugins/gsap.js" defer></script>
+    <script src="assets/js/plugins/splittext.js" defer></script>
+    <script src="assets/js/plugins/scrolltigger.js" defer></script>
+    <script src="assets/js/plugins/smoothscroll.js" defer></script>
+    <script src="assets/js/vendor/bootstrap.min.js" defer></script>
+    <script src="assets/js/plugins/animation.js" defer></script>
+    <script src="assets/js/plugins/text-type.js" defer></script>
     <!-- custom Js -->
-    <script src="assets/js/main.js"></script>
-
-    <script>
-    </script>
+    <script src="assets/js/main.js" defer></script>
 </body>
 
 </html>

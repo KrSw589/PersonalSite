@@ -56,8 +56,6 @@
 52.footers';
 ----------------------------*/
 /*----Default Css----*/
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
   /* --color-primary: #8A2BE2; */
   /* --color-primary: #FFA500; */
@@ -193,7 +191,7 @@
 
 
 .avatar {
-  background-image: url(../images/krsw/krsw_dark_lrg.webp);
+  background-image: url(../images/krsw/avatar-700.webp);
   width: 350px;
   height: 350px;
   background-size: cover;
@@ -27099,3 +27097,17 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
   color: #3d3d3d !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+/* Inline SVG icons (replaces Font Awesome webfont) */
+.ki {
+  display: inline-block;
+  font-style: normal;
+  line-height: 1;
+}
+.ki svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
